@@ -1,0 +1,124 @@
+.header img {
+display: inline-block;
+height: 100px;
+position: relative;
+left:8%;
+z-index: +1;
+}
+.header {
+    /*background: linear-gradient(to right, #00131a , #003735);*/
+    background: linear-gradient(to right, #22d076, #2bc0b1);
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    /*box-shadow: 10px 0px 50px #0B2239;*/
+}
+style {
+    background: linear-gradient(#1FD075, #1fd0bb);
+}
+body {
+    /*overflow: auto;*/
+overflow: scroll;
+background: linear-gradient(to right, #1FD075, #2bc0b1);
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Olivia{
+    display: inline-block;
+    color: #f6fbff;
+    position: relative;
+    font-size: small;
+    bottom: 95%;
+    left: 16%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: +1;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    left: 57%;
+    height: 90%;
+    top: 0%;
+    /* width: 37%; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+float: right;
+/*border-left: 1px solid white;*/
+}
+li a{
+    display: inline-block;
+    margin: 15%;
+    width: 100px;
+    height: 80px;
+    color: #f5faff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #087b64;
+}
+
+.pp{
+    background: #ffffff;
+    color: #000000;
+    padding: 15px;
+    margin-right: 10%;
+    text-align: center;
+    width: 50%;
+    height: 30px;
+    border-radius: 45px;
+} 
+.pp p{
+    margin: 0;
+}
+.labelr{
+    font-weight:lighter ;
+    color: #ffffff;
+    margin-right: 10%;
+}
+.reply{
+    display: inline;
+background-color: #d0f0e7;
+border-style: none;
+    padding: 20px;
+    width: 350px;
+    border-radius: 30px;
+    height: 8px;
+    text-align: center;
+    color: #5a5a5a;
+}
+.invite{
+    display: inline;
+    background: linear-gradient(to left, #005442, #004e46);
+    border-style: none;
+    padding: 18px;
+    /* margin-left:  80%; */
+    width: 170px;
+    border-radius: 30px;
+    /* height: 8px; */
+    color: #ffffff;
+}
+.invite:hover{
+    color: #005650;
+    background: linear-gradient(to left, #00ffc8, #00ffe5);
+}
+.A{
+    margin-left:9%;
+    width: 80%;
+    display: inline-block;
+}
+
+.image{
+    width: 500px;
+    margin-left: 60%;
+    position: relative;
+    bottom: 320px;
+}
